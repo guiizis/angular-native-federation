@@ -32,7 +32,8 @@
               }
             ],
             "styles": [
-              "projects/shell/src/styles.scss"
+              "projects/shell/src/styles.scss",
+              "@angular/material/prebuilt-themes/indigo-pink.css"
             ],
             "scripts": [],
             "server": "projects/shell/src/main.server.ts",
@@ -132,7 +133,8 @@
               }
             ],
             "styles": [
-              "projects/products/src/styles.scss"
+              "projects/products/src/styles.scss",
+              "@angular/material/prebuilt-themes/indigo-pink.css"
             ],
             "scripts": [],
             "server": "projects/products/src/main.server.ts",
