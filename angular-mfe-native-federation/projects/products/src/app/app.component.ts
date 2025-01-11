@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-products-root',
+  imports: [MatCardModule],
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: `
+    <mat-card appearance="outlined">
+      <mat-card-content>Products App</mat-card-content>
+    </mat-card>
+  `
 })
-export class AppComponent {
-  title = 'products';
-}
+export class AppComponent { }
